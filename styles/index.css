@@ -10,7 +10,7 @@ body {
 }
 
 .showcase {
-    background-image: url("../images/the-city-at-night-lights-high-rise-buildings-skyscrapers-light-excerpt-city-night-the-lights-of-the-city.jpg");
+    background-image: url("../images/cubamalecon.jpg");
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,7 +28,7 @@ body {
 }
 
 .showcase h1{
-    color: rgb(18, 221, 120);
+    color: black;
     font-size: 2.5rem;
     line-height:1.2;
 }
@@ -54,6 +54,72 @@ body {
 h2 {
     text-align: center;
 }
+
+.fullstack{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    width:50%;
+    border:3px solid rgb(138, 5, 179);
+    height:auto;
+    background-color: gray;
+}
+
+.fullstack h3{
+    font-size: 3rem;
+}
+
+.skills {
+    display:flex;
+    justify-content: center;
+    border: 3px solid rgb(64, 43, 161);
+    width: 100%;
+    height: auto;
+}
+
+.tools {
+    width:10%;
+    height:10%;
+    align-self: center;
+}
+
+ul{
+    display:flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    border:3px solid black;
+    margin:1rem;
+    padding:0.2rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: rgb(218, 208, 208);
+    width:15%;
+
+    line-height: 133px;
+}
+
+li:hover{
+    background-color: rgb(119, 13, 219);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+
+
+
+
+
+
+
+
 
 
 /* .container {
